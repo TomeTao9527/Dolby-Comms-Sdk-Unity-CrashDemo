@@ -98,12 +98,13 @@
       "url": "https://packages.unity.com"
     },
     "dolbyio.comms.unity": {
-      "version": "file:D:/Programs/Dolby Test/Packages/unity/comms-sdk-unity-1.1.2",
+      "version": "https://github.com/DolbyIO/comms-sdk-unity.git#v1.1.2",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.0.2"
-      }
+      },
+      "hash": "763f3abb519c9242182fd964ef8c750f2d24f3b4"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
